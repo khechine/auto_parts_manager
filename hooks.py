@@ -2,11 +2,11 @@ from . import __version__ as app_version
 
 app_name = "auto_parts_manager"
 app_title = "Auto Parts Manager"
-app_publisher = "Mehdi Khechine"
-app_description = "A comprehensive ERPNext app for managing auto parts inventory, sales, and vehicle information."
-app_email = "mehdi.khechine@example.com"
+app_publisher = "ERPBox"
+app_description = "ERPNext app for selling auto parts with VIN search"
+app_email = "support@erpbox.online"
 app_license = "MIT"
-app_version = "0.0.1"
+app_version = "1.0.0"
 
 # Includes in <head>
 # ------------------
