@@ -1,0 +1,75 @@
+{
+    "doctype": "DocType",
+    "name": "VIN Lookup",
+    "module": "Auto Parts Manager",
+    "is_submittable": 0,
+    "is_child": 0,
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "fields": [
+        {
+            "fieldname": "vin_input",
+            "fieldtype": "Data",
+            "label": "VIN Input",
+            "reqd": 1
+        },
+        {
+            "fieldname": "decoded_data",
+            "fieldtype": "JSON",
+            "label": "Decoded Data"
+        },
+        {
+            "fieldname": "compatible_parts_list",
+            "fieldtype": "Table",
+            "label": "Compatible Parts List",
+            "options": "Auto Part"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "Auto Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 1,
+            "export": 1,
+            "share": 1
+        },
+        {
+            "role": "Sales User",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 0,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 0,
+            "export": 1,
+            "share": 1
+        },
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 1,
+            "export": 1,
+            "share": 1
+        }
+    ]
+}

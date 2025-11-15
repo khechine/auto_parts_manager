@@ -1,0 +1,52 @@
+[
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Engine Parts",
+        "description": "Components related to the engine system"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Transmission",
+        "description": "Parts for transmission and drivetrain"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Brakes",
+        "description": "Braking system components"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Suspension",
+        "description": "Suspension and steering parts"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Electrical",
+        "description": "Electrical and electronic components"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Body Parts",
+        "description": "Exterior and interior body components"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Filters",
+        "description": "Air, oil, and fuel filters"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Belts and Hoses",
+        "description": "Drive belts, hoses, and related parts"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Exhaust",
+        "description": "Exhaust system components"
+    },
+    {
+        "doctype": "Auto Part Category",
+        "category_name": "Cooling System",
+        "description": "Radiator, water pump, and cooling parts"
+    }
+]

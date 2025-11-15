@@ -1,0 +1,97 @@
+{
+    "doctype": "DocType",
+    "name": "Auto Part",
+    "module": "Auto Parts Manager",
+    "is_submittable": 0,
+    "is_child": 0,
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "fields": [
+        {
+            "fieldname": "part_code",
+            "fieldtype": "Data",
+            "label": "Part Code",
+            "unique": 1,
+            "reqd": 1
+        },
+        {
+            "fieldname": "oem_reference",
+            "fieldtype": "Data",
+            "label": "OEM Reference"
+        },
+        {
+            "fieldname": "category",
+            "fieldtype": "Link",
+            "label": "Category",
+            "options": "Auto Part Category"
+        },
+        {
+            "fieldname": "purchase_price",
+            "fieldtype": "Currency",
+            "label": "Purchase Price"
+        },
+        {
+            "fieldname": "sale_price",
+            "fieldtype": "Currency",
+            "label": "Sale Price"
+        },
+        {
+            "fieldname": "stock_qty",
+            "fieldtype": "Float",
+            "label": "Stock Quantity"
+        },
+        {
+            "fieldname": "compatible_vins",
+            "fieldtype": "Table",
+            "label": "Compatible VINs",
+            "options": "Auto Part Compatible VIN"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "Auto Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 1,
+            "export": 1,
+            "share": 1
+        },
+        {
+            "role": "Sales User",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 0,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 0,
+            "export": 1,
+            "share": 1
+        },
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 1,
+            "export": 1,
+            "share": 1
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"doctype": "Auto Part Compatible VIN",
+		"auto_part": "_Test Auto Part",
+		"vin": "1HGCM82633A123456"
+	},
+	{
+		"doctype": "Auto Part Compatible VIN",
+		"auto_part": "_Test Auto Part 2",
+		"vin": "2HGCM82633A123457"
+	}
+]

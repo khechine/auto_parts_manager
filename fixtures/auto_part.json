@@ -1,0 +1,232 @@
+[
+    {
+        "doctype": "Auto Part",
+        "part_code": "ENG-001",
+        "oem_reference": "1234-5678-9012",
+        "category": "Engine Parts",
+        "purchase_price": 150.00,
+        "sale_price": 250.00,
+        "stock_qty": 50.0,
+        "compatible_vins": [
+            {
+                "vin": "1HGCM82633A123456",
+                "brand": "Honda",
+                "model": "Civic",
+                "year_range": "2018-2022"
+            },
+            {
+                "vin": "2T1BURHE0FC345678",
+                "brand": "Toyota",
+                "model": "Corolla",
+                "year_range": "2017-2021"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "TRN-002",
+        "oem_reference": "ABCD-1234-EFGH",
+        "category": "Transmission",
+        "purchase_price": 200.00,
+        "sale_price": 350.00,
+        "stock_qty": 30.0,
+        "compatible_vins": [
+            {
+                "vin": "3VWLA7AJ9FM567890",
+                "brand": "Volkswagen",
+                "model": "Golf",
+                "year_range": "2019-2023"
+            },
+            {
+                "vin": "5NPDH4AE4FH901234",
+                "brand": "Hyundai",
+                "model": "Elantra",
+                "year_range": "2016-2020"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "BRK-003",
+        "oem_reference": "BRAKE-7890-PAD",
+        "category": "Brakes",
+        "purchase_price": 80.00,
+        "sale_price": 120.00,
+        "stock_qty": 100.0,
+        "compatible_vins": [
+            {
+                "vin": "KMHCT4AE4GU345678",
+                "brand": "Hyundai",
+                "model": "Tucson",
+                "year_range": "2020-2024"
+            },
+            {
+                "vin": "1FAHP2F8XFG567890",
+                "brand": "Ford",
+                "model": "Focus",
+                "year_range": "2015-2019"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "SUS-004",
+        "oem_reference": "SHOCK-4567-ABS",
+        "category": "Suspension",
+        "purchase_price": 120.00,
+        "sale_price": 180.00,
+        "stock_qty": 40.0,
+        "compatible_vins": [
+            {
+                "vin": "JM1BL1V75F1234567",
+                "brand": "Mazda",
+                "model": "Mazda3",
+                "year_range": "2017-2021"
+            },
+            {
+                "vin": "WAUZZZ8V4HA234567",
+                "brand": "Audi",
+                "model": "A3",
+                "year_range": "2018-2022"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "ELE-005",
+        "oem_reference": "BATTERY-12V-100AH",
+        "category": "Electrical",
+        "purchase_price": 90.00,
+        "sale_price": 140.00,
+        "stock_qty": 25.0,
+        "compatible_vins": [
+            {
+                "vin": "VF1JZ590A12345678",
+                "brand": "Peugeot",
+                "model": "208",
+                "year_range": "2019-2023"
+            },
+            {
+                "vin": "VF3LCRFJB34567890",
+                "brand": "Peugeot",
+                "model": "3008",
+                "year_range": "2016-2020"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "BDY-006",
+        "oem_reference": "MIRROR-LH-HEAT",
+        "category": "Body Parts",
+        "purchase_price": 60.00,
+        "sale_price": 95.00,
+        "stock_qty": 70.0,
+        "compatible_vins": [
+            {
+                "vin": "VF7LCRHJG45678901",
+                "brand": "Citroën",
+                "model": "C4 Picasso",
+                "year_range": "2017-2021"
+            },
+            {
+                "vin": "VF3WC8HRJ56789012",
+                "brand": "Renault",
+                "model": "Kadjar",
+                "year_range": "2018-2022"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "FLT-007",
+        "oem_reference": "OIL-FILTER-5678",
+        "category": "Filters",
+        "purchase_price": 25.00,
+        "sale_price": 40.00,
+        "stock_qty": 150.0,
+        "compatible_vins": [
+            {
+                "vin": "VF1RFB00678901234",
+                "brand": "Renault",
+                "model": "Clio",
+                "year_range": "2020-2024"
+            },
+            {
+                "vin": "WBA3B5C55FP890123",
+                "brand": "BMW",
+                "model": "3 Series",
+                "year_range": "2015-2019"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "BLT-008",
+        "oem_reference": "TIMING-BELT-9012",
+        "category": "Belts and Hoses",
+        "purchase_price": 85.00,
+        "sale_price": 135.00,
+        "stock_qty": 35.0,
+        "compatible_vins": [
+            {
+                "vin": "WBA8E3C56JG901234",
+                "brand": "BMW",
+                "model": "X3",
+                "year_range": "2019-2023"
+            },
+            {
+                "vin": "WDD2210561A012345",
+                "brand": "Mercedes-Benz",
+                "model": "C-Class",
+                "year_range": "2016-2020"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "EXH-009",
+        "oem_reference": "CATALYST-3456-EXH",
+        "category": "Exhaust",
+        "purchase_price": 300.00,
+        "sale_price": 450.00,
+        "stock_qty": 15.0,
+        "compatible_vins": [
+            {
+                "vin": "W1K2069071A567890",
+                "brand": "Mercedes-Benz",
+                "model": "E-Class",
+                "year_range": "2018-2022"
+            },
+            {
+                "vin": "WVWZZZ3CZJE123456",
+                "brand": "Volkswagen",
+                "model": "Passat",
+                "year_range": "2017-2021"
+            }
+        ]
+    },
+    {
+        "doctype": "Auto Part",
+        "part_code": "COL-010",
+        "oem_reference": "RADIATOR-7890-CORE",
+        "category": "Cooling System",
+        "purchase_price": 180.00,
+        "sale_price": 280.00,
+        "stock_qty": 20.0,
+        "compatible_vins": [
+            {
+                "vin": "JTNB11HK4J3456789",
+                "brand": "Toyota",
+                "model": "Prius",
+                "year_range": "2019-2023"
+            },
+            {
+                "vin": "KL8CD6SAXHC678901",
+                "brand": "Chevrolet",
+                "model": "Spark",
+                "year_range": "2016-2020"
+            }
+        ]
+    }
+]

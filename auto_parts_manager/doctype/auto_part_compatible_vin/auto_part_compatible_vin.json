@@ -1,0 +1,35 @@
+{
+    "doctype": "DocType",
+    "name": "Auto Part Compatible VIN",
+    "module": "Auto Parts Manager",
+    "is_submittable": 0,
+    "is_child": 1,
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "fields": [
+        {
+            "fieldname": "vin",
+            "fieldtype": "Data",
+            "label": "VIN",
+            "reqd": 1
+        },
+        {
+            "fieldname": "brand",
+            "fieldtype": "Data",
+            "label": "Brand",
+            "reqd": 1
+        },
+        {
+            "fieldname": "model",
+            "fieldtype": "Data",
+            "label": "Model",
+            "reqd": 1
+        },
+        {
+            "fieldname": "year_range",
+            "fieldtype": "Data",
+            "label": "Year Range",
+            "reqd": 1
+        }
+    ]
+}

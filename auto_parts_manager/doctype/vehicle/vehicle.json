@@ -1,0 +1,117 @@
+{
+    "doctype": "DocType",
+    "name": "Vehicle",
+    "module": "Auto Parts Manager",
+    "is_submittable": 0,
+    "is_child": 0,
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "fields": [
+        {
+            "fieldname": "vin",
+            "fieldtype": "Data",
+            "label": "VIN",
+            "unique": 1,
+            "reqd": 1,
+            "regex": "^[A-HJ-NPR-Z0-9]{17}$"
+        },
+        {
+            "fieldname": "brand",
+            "fieldtype": "Data",
+            "label": "Brand",
+            "reqd": 0
+        },
+        {
+            "fieldname": "model",
+            "fieldtype": "Data",
+            "label": "Model",
+            "reqd": 0
+        },
+        {
+            "fieldname": "year",
+            "fieldtype": "Int",
+            "label": "Year",
+            "reqd": 0
+        },
+        {
+            "fieldname": "engine_type",
+            "fieldtype": "Data",
+            "label": "Engine Type",
+            "reqd": 0
+        },
+        {
+            "fieldname": "fuel_type",
+            "fieldtype": "Select",
+            "label": "Fuel Type",
+            "options": "Diesel\nEssence\nHybride\nÉlectrique",
+            "reqd": 0
+        },
+        {
+            "fieldname": "customer",
+            "fieldtype": "Link",
+            "label": "Customer",
+            "options": "Customer",
+            "reqd": 0
+        },
+        {
+            "fieldname": "matricule",
+            "fieldtype": "Data",
+            "label": "Matricule",
+            "reqd": 0
+        },
+        {
+            "fieldname": "compatible_parts",
+            "fieldtype": "Table MultiSelect",
+            "label": "Compatible Parts",
+            "options": "Auto Part",
+            "reqd": 0
+        }
+    ],
+    "permissions": [
+        {
+            "role": "Auto Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 1,
+            "export": 1,
+            "share": 1
+        },
+        {
+            "role": "Sales User",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 0,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 0,
+            "export": 1,
+            "share": 1
+        },
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0,
+            "print": 1,
+            "email": 1,
+            "report": 1,
+            "export": 1,
+            "share": 1
+        }
+    ]
+}
