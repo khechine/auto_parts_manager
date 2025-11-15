@@ -37,4 +37,10 @@ desk_links = [
 	}
 ]
 
+app_include_js = [
+    "/assets/auto_parts_manager/js/pos_invoice.js",
+    "/assets/auto_parts_manager/js/vehicle.js",
+    "/assets/auto_parts_manager/js/vin_lookup.js"
+]
+
 required_apps = []
