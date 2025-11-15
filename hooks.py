@@ -216,9 +216,9 @@ website_route_rules = [
 	{"from_route": "/auto-parts/<path:app_path>", "to_route": "auto-parts"},
 ]
 
-doctype_js = {
-	"POS Invoice": "public/js/pos_invoice.js"
-}
+# doctype_js = {
+#	"POS Invoice": "public/js/pos_invoice.js"
+# }
 
 # fixtures = [
 #	{"dt": "Custom Field", "filters": [["module", "=", "Auto Parts Manager"]]},
