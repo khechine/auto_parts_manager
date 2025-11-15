@@ -217,9 +217,6 @@ website_route_rules = [
 ]
 
 doctype_js = {
-	"Vehicle": "public/js/vehicle.js",
-	"Auto Part": "public/js/auto_part.js",
-	"Auto Part Category": "public/js/auto_part_category.js",
 	"POS Invoice": "public/js/pos_invoice.js"
 }
 
